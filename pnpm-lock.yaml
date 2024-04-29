@@ -717,6 +717,9 @@ importers:
       '@novu/notification-center':
         specifier: ^0.24.1
         version: link:../../packages/notification-center
+      '@novu/novui':
+        specifier: ^0.0.1
+        version: link:../../libs/novui
       '@novu/shared':
         specifier: ^0.24.1
         version: link:../../libs/shared

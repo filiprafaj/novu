@@ -1,0 +1,24 @@
+{
+  "name": "novui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@pandacss/dev": "^0.37.2",
+    "@pandacss/studio": "^0.37.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "peerDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

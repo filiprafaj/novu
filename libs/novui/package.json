@@ -2,9 +2,16 @@
   "name": "novui",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "types": "./dist/index.d.ts",
+  "main": "./dist/index.js",
+  "imports": {
+    "#ui-lib/*": "./styled-system/*"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepare": "pnpm panda codegen",
+    "build": "tsup",
+    "build-fast": "tsup --no-dts",
+    "dev": "pnpm build-fast --watch"
   },
   "keywords": [],
   "author": "",

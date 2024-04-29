@@ -36,9 +36,8 @@ export default defineConfig({
   },
 
   // The output directory for your css system
-  outdir: 'styled-system',
+  outdir: 'src/styled-system',
 
-  // Recommended by panda maintainer due to potential bug with nesting styled-system in src
   importMap: '@novu/novui',
 
   // Enables JSX util generation!

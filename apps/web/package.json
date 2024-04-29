@@ -2,6 +2,9 @@
   "name": "@novu/web",
   "version": "0.24.1",
   "private": true,
+  "imports": {
+    "#ui-lib/*": "./src/styled-system/*"
+  },
   "scripts": {
     "start": "pnpm panda --watch & cross-env NODE_OPTIONS=--max_old_space_size=8192 PORT=4200 react-app-rewired start",
     "prebuild": "rimraf build",

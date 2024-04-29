@@ -10,6 +10,13 @@
     "sourceMap": true,
     "removeComments": false,
 
+    /**
+     * Required due to extending base tsconfig, and receiving error:
+     * "error TS5101: Option 'suppressImplicitAnyIndexErrors' is deprecated
+     * and will stop functioning in TypeScript 5.5"
+     */
+    "ignoreDeprecations": "5.0",
+
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,

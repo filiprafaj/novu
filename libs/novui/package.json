@@ -52,8 +52,9 @@
   "scripts": {
     "prepare": "pnpm panda codegen",
     "build": "tsup",
-    "build-fast": "tsup --no-dts",
-    "dev": "pnpm build-fast --watch"
+    "build:dev": "tsup --no-dts",
+    "dev": "pnpm build:dev --watch",
+    "studio": "pnpm panda studio"
   },
   "keywords": [],
   "author": "",

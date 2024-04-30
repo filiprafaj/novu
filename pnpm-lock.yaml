@@ -72,6 +72,9 @@ importers:
       '@octokit/core':
         specifier: ^4.0.0
         version: 4.2.0
+      '@pandabox/prettier-plugin':
+        specifier: ^0.1.2
+        version: 0.1.2(@pandacss/config@0.38.0)(@pandacss/core@0.38.0)(@pandacss/is-valid-prop@0.38.0)(@pandacss/node@0.38.0)(@pandacss/preset-base@0.38.0)(@pandacss/shared@0.38.0)
       '@pnpm/filter-workspace-packages':
         specifier: ^7.0.6
         version: 7.0.6(@pnpm/logger@5.0.0)
@@ -214,7 +217,7 @@ importers:
         specifier: 8.9.0
         version: 8.9.0
       prettier:
-        specifier: ~2.8.0
+        specifier: ~2.8.7
         version: 2.8.7
       process:
         specifier: ^0.11.10
@@ -24096,6 +24099,25 @@ packages:
       '@opentelemetry/core': 1.22.0(@opentelemetry/api@1.7.0)
     dev: false
 
+  /@pandabox/prettier-plugin@0.1.2(@pandacss/config@0.38.0)(@pandacss/core@0.38.0)(@pandacss/is-valid-prop@0.38.0)(@pandacss/node@0.38.0)(@pandacss/preset-base@0.38.0)(@pandacss/shared@0.38.0):
+    resolution: {integrity: sha512-KP2iI9lOpUtFfwB3ieOfbAM1EotytOex61ZXkfUsgn406wE7KQ3NNwf+VJVK0xx3OEFBq4Kaj8YLHXwYIujvGw==}
+    peerDependencies:
+      '@pandacss/config': '>=0.36.1'
+      '@pandacss/core': '>=0.36.1'
+      '@pandacss/is-valid-prop': '>=0.36.1'
+      '@pandacss/node': '>=0.36.1'
+      '@pandacss/preset-base': '>=0.36.1'
+      '@pandacss/shared': '>=0.36.1'
+    dependencies:
+      '@pandacss/config': 0.38.0
+      '@pandacss/core': 0.38.0
+      '@pandacss/is-valid-prop': 0.38.0
+      '@pandacss/node': 0.38.0(typescript@4.9.5)
+      '@pandacss/preset-base': 0.38.0
+      '@pandacss/shared': 0.38.0
+      micromatch: 4.0.5
+    dev: true
+
   /@pandacss/astro-plugin-studio@0.38.0(astro@4.4.0)(typescript@4.9.5):
     resolution: {integrity: sha512-5Z7QNd5biJ0L8hglt4FUFOux+BeyPp6sr1qRJ6f7/ICzHX+nZMhbGA619KlqKa/gyyN0JjmhVG+zJtPDeAAKsA==}
     peerDependencies:
@@ -46752,7 +46774,7 @@ packages:
       pretty-format: 27.5.1
       slash: 3.0.0
       strip-json-comments: 3.1.1
-      ts-node: 10.9.1(@types/node@14.18.42)(typescript@4.9.5)
+      ts-node: 10.9.1(@types/node@16.11.7)(typescript@4.9.5)
     transitivePeerDependencies:
       - bufferutil
       - canvas
@@ -58269,7 +58291,7 @@ packages:
       jest-worker: 26.6.2
       rollup: 2.79.1
       serialize-javascript: 4.0.0
-      terser: 5.22.0
+      terser: 5.16.9
     dev: true
 
   /rollup-plugin-terser@7.0.2(rollup@3.20.2):

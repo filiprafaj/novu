@@ -640,7 +640,8 @@
     "whatsapp",
     "whatsappbusiness",
     "parens",
-    "novui"
+    "novui",
+    "tsup"
   ],
   "flagWords": [],
   "patterns": [

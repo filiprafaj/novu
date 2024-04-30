@@ -1,4 +1,5 @@
 module.exports = {
+  extends: ['../../.eslintrc.js', 'plugin:@pandacss/recommended'],
   rules: {
     'func-names': 'off',
     'react/jsx-props-no-spreading': 'off',
@@ -30,7 +31,6 @@ module.exports = {
     ],
   },
   ignorePatterns: ['styled-system/*'],
-  extends: ['../../.eslintrc.js'],
   parserOptions: {
     project: './tsconfig.json',
     ecmaVersion: 2020,

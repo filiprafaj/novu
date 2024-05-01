@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ['../../.eslintrc.js', 'plugin:@pandacss/recommended'],
+  extends: [
+    '../../.eslintrc.js',
+    // 'plugin:@pandacss/recommended'
+  ],
+  plugins: ['@pandacss', 'react-hooks'],
   rules: {
     'func-names': 'off',
     'react/jsx-props-no-spreading': 'off',
@@ -29,6 +33,7 @@ module.exports = {
         format: ['PascalCase', 'camelCase', 'UPPER_CASE'],
       },
     ],
+    '@pandacss/file-not-included': 'off',
   },
   ignorePatterns: ['styled-system/*', 'prettier.config.ts', 'panda.config.ts'],
   parserOptions: {

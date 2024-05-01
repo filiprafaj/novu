@@ -60,6 +60,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@pandabox/prettier-plugin": "^0.1.2",
     "@pandacss/dev": "^0.38.0",
     "@pandacss/eslint-plugin": "^0.1.2",
     "@pandacss/studio": "^0.38.0",

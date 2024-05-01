@@ -30,7 +30,7 @@ module.exports = {
       },
     ],
   },
-  ignorePatterns: ['styled-system/*'],
+  ignorePatterns: ['styled-system/*', 'prettier.config.ts'],
   parserOptions: {
     project: './tsconfig.json',
     ecmaVersion: 2020,

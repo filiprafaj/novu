@@ -5,6 +5,9 @@ export default defineConfig({
   // Whether to use css reset
   preflight: true,
 
+  // Only allow defined values
+  strictTokens: true,
+
   // Where to look for your css declarations
   include: ['./src/**/*.{js,jsx,ts,tsx}', './.storybook/**/*.{js,jsx,ts,tsx}'],
 

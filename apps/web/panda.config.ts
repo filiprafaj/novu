@@ -5,6 +5,9 @@ export default defineConfig({
   // use CSS reset
   preflight: true,
 
+  // Only allow defined values
+  strictTokens: true,
+
   /**
    * https://panda-css.com/docs/guides/component-library#include-the-src-files
    *

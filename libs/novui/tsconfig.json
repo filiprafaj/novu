@@ -36,7 +36,7 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "#ui-lib/*": ["./styled-system/*"]
+      "styled-system": ["./styled-system/*"]
     }
   }
 }

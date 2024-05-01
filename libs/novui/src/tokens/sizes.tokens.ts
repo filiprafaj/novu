@@ -6,6 +6,10 @@ import { defineTokens } from '@pandacss/dev';
  * Used for properties like width and height.
  */
 export const SIZES_TOKENS = defineTokens.sizes({
+  '0': {
+    value: '0',
+    type: 'sizes',
+  },
   '25': {
     value: '0.25rem',
     type: 'sizes',

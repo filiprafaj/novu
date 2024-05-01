@@ -6,6 +6,10 @@ import { defineTokens } from '@pandacss/dev';
  * Used for properties like margin and padding.
  */
 export const SPACING_TOKENS = defineTokens.spacing({
+  '0': {
+    value: '0',
+    type: 'spacing',
+  },
   '25': {
     value: '0.25rem',
     type: 'spacing',

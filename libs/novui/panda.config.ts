@@ -30,12 +30,13 @@ export default defineConfig({
     extend: {},
   },
 
-  importMap: {
-    css: '#ui-lib/css',
-    recipes: '#ui-lib/recipes',
-    patterns: '#ui-lib/patterns',
-    jsx: '#ui-lib/jsx',
-  },
+  // importMap: {
+  //   css: '#ui-lib/css',
+  //   recipes: '#ui-lib/recipes',
+  //   patterns: '#ui-lib/patterns',
+  //   jsx: '#ui-lib/jsx',
+  // },
+  importMap: 'styled-system',
 
   // The output directory for your css system
   outdir: 'styled-system',
